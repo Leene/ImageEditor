@@ -7,6 +7,7 @@ import javax.imageio.*;
 
 public class ImageEditorFrame extends JFrame{ 
 	public ImageEditorFrame(){ 
+		setTitle("ImageEditor Deluxe");
 		setDefaultCloseOperation(EXIT_ON_CLOSE); 
 		setSize(400, 300); 
 		setVisible(true); 
